@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "4ffaf68a-2095-40ae-9f99-f405f90f6644",
+		"name": "Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29045896",
+		"_collection_link": "https://dark-zodiac-66469.postman.co/workspace/PreaProbador-APP~79022bce-023f-43ae-915d-c4ea97dd9c7a/collection/29045896-4ffaf68a-2095-40ae-9f99-f405f90f6644?action=share&source=collection_link&creator=29045896"
+	},
+	"item": [
+		{
+			"name": "create user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" : \"Kevyn\",\n    \"email\": \"a@a.com\",\n    \"age\": 18,\n    \"address\" : \"TEST\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
